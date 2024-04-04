@@ -14,8 +14,9 @@ typedef enum
 /**
  * Initializes the memory allocator with the given strategy.
  * @param strat The strategy to use for memory allocation.
+ * @param stack_bot The bottom of the stack.
  */
-void t_init (alloc_strat_e strat);
+void t_init (alloc_strat_e strat, void* stack_bot);
 
 /**
  * Allocates a block of memory of the given size.

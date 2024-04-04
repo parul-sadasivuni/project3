@@ -1,7 +1,7 @@
 #include "tdmm.h"
 
 void
-t_init (alloc_strat_e strat)
+t_init (alloc_strat_e strat, void* stack_bot)
 {
   // TODO: Implement this
 }
